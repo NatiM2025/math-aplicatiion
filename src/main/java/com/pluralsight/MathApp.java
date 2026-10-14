@@ -16,5 +16,12 @@ public class MathApp {
         System.out.println(lowestPrice);
 
         //Excersice 3.3
+
+        double radius = 7.25;
+        double area = Math.PI * Math.pow(radius,2);
+        System.out.println(area);
+        System.out.println(Math.round(area));
+
+
     }
 }

@@ -10,5 +10,11 @@ public class MathApp {
 
         //Excersice 3.2
 
+        double carPrice = 25999;
+        double truckPrice = 43999;
+        double lowestPrice = Math.min(carPrice,truckPrice);
+        System.out.println(lowestPrice);
+
+        //Excersice 3.3
     }
 }

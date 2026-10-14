@@ -28,5 +28,10 @@ public class MathApp {
         double squareRoot = Math.sqrt(numberValue);
         System.out.println(squareRoot);
 
+        //Excersice 3.5
+        int x1 = 5, y1 = 10, x2 = 85, y2 = 50;
+        double distance = Math.sqrt(Math.pow(x2-x1,2) + Math.sqrt(Math.pow(y2 - y1,2)));
+        System.out.println("The distance between the points is " + distance);
+
     }
 }

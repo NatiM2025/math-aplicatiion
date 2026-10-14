@@ -22,6 +22,11 @@ public class MathApp {
         System.out.println(area);
         System.out.println(Math.round(area));
 
+        //Excersice 3.4
+
+        double numberValue = 5.0;
+        double squareRoot = Math.sqrt(numberValue);
+        System.out.println(squareRoot);
 
     }
 }
